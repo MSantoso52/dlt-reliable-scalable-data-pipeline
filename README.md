@@ -6,10 +6,15 @@ Build Data Pipeline from public datasets into MongoDB using dlt(data load tool).
 ![]()
 
 # *Problem To Be Solved*
+Manual ETL pipelines are fragile: prone to schema mismatches, full reloads, failures on scale, and vendor lock-in. dlt abstracts this for robust ingestion from sources like Excel/APIs.
 
 # *Business Impact*
+* Efficiency: Automates ingestion, cutting setup time from days to minutes; handles large volumes without crashes.
+* Cost Savings: Lowers engineering overhead—no custom code for retries, schemas, or destinations.
 
 # *Business Leverage*
+* Scaling: Incremental loads + multi-dest (e.g., MongoDB + analytics DB) support growing data without rework.
+* Innovation: Quick integration of new sources enables faster analytics, ML, and decision-making on fresh data.
 
 # *Project Flow*
 1. Create virtual environment & activate it
