@@ -21,7 +21,7 @@ Build Data Pipeline from public datasets into MongoDB using dlt(data load tool).
    ```
 2. Write python3 code for dlt operation load data from public datasets into mongodb
    ```bash
-   (mongo_dlt) ❯ lvinm rest_api_mongo.py
+   (mongo_dlt) ❯ lvim rest_api_mongo.py
    ```
 3. Run the dlt within python code
    ```bash
